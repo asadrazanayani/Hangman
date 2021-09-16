@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/asad/Desktop/PortFolio/Hangman/Fractions/Fractions.cpp
+Fractions.h
+/Users/asad/Desktop/PortFolio/Hangman/Fractions/Fractions.h
+
+/Users/asad/Desktop/PortFolio/Hangman/Fractions/Fractions.h
+iostream
+-
+
+/Users/asad/Desktop/PortFolio/Hangman/MyString/MyString.h
+iostream
+-
+
+/Users/asad/Desktop/PortFolio/Hangman/Point2D/Point2D.h
+
+/Users/asad/Desktop/PortFolio/Hangman/main.cpp
+iostream
+-
+/Users/asad/Desktop/PortFolio/Hangman/Point2D/Point2D.h
+-
+/Users/asad/Desktop/PortFolio/Hangman/MyString/MyString.h
+-
+Fractions/Fractions.h
+/Users/asad/Desktop/PortFolio/Hangman/Fractions/Fractions.h
+
