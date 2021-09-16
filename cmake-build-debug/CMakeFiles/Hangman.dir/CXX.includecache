@@ -6,10 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/Users/asad/Desktop/PortFolio/Hangman/Fractions/Fractions.cpp
-Fractions.h
-/Users/asad/Desktop/PortFolio/Hangman/Fractions/Fractions.h
-
 /Users/asad/Desktop/PortFolio/Hangman/Fractions/Fractions.h
 iostream
 -
@@ -19,6 +15,22 @@ iostream
 -
 
 /Users/asad/Desktop/PortFolio/Hangman/Point2D/Point2D.h
+
+/Users/asad/Desktop/PortFolio/Hangman/Utils/Utils.h
+
+/Users/asad/Desktop/PortFolio/Hangman/Vector/Vec2D.cpp
+Vec2D.h
+/Users/asad/Desktop/PortFolio/Hangman/Vector/Vec2D.h
+/Users/asad/Desktop/PortFolio/Hangman/Utils/Utils.h
+-
+cassert
+-
+cmath
+-
+
+/Users/asad/Desktop/PortFolio/Hangman/Vector/Vec2D.h
+iostream
+-
 
 /Users/asad/Desktop/PortFolio/Hangman/main.cpp
 iostream
@@ -29,4 +41,6 @@ iostream
 -
 Fractions/Fractions.h
 /Users/asad/Desktop/PortFolio/Hangman/Fractions/Fractions.h
+Vector/Vec2D.h
+/Users/asad/Desktop/PortFolio/Hangman/Vector/Vec2D.h
 

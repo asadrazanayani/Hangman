@@ -98,6 +98,18 @@
 		<Unit filename="/Users/asad/Desktop/PortFolio/Hangman/Point2D/Point2D.h">
 			<Option target="Hangman"/>
 		</Unit>
+		<Unit filename="/Users/asad/Desktop/PortFolio/Hangman/Utils/Utils.cpp">
+			<Option target="Hangman"/>
+		</Unit>
+		<Unit filename="/Users/asad/Desktop/PortFolio/Hangman/Utils/Utils.h">
+			<Option target="Hangman"/>
+		</Unit>
+		<Unit filename="/Users/asad/Desktop/PortFolio/Hangman/Vector/Vec2D.cpp">
+			<Option target="Hangman"/>
+		</Unit>
+		<Unit filename="/Users/asad/Desktop/PortFolio/Hangman/Vector/Vec2D.h">
+			<Option target="Hangman"/>
+		</Unit>
 		<Unit filename="/Users/asad/Desktop/PortFolio/Hangman/main.cpp">
 			<Option target="Hangman"/>
 		</Unit>

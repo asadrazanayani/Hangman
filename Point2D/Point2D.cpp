@@ -37,5 +37,9 @@ Point2D::Point2D(int x, int y)
 {
     x_ = x;
     y_ = y;
+    numPoints++;
 }
-Point2D::~Point2D() {}
+Point2D::~Point2D() {
+    numPoints--;
+}
+int Point2D::numPoints = 0;

@@ -10,8 +10,16 @@ CMakeFiles/Hangman.dir/MyString/MyString.cpp.o: \
 CMakeFiles/Hangman.dir/Point2D/Point2D.cpp.o: \
  ../Point2D/Point2D.cpp \
  ../Point2D/Point2D.h
+CMakeFiles/Hangman.dir/Utils/Utils.cpp.o: \
+ ../Utils/Utils.cpp \
+ ../Utils/Utils.h
+CMakeFiles/Hangman.dir/Vector/Vec2D.cpp.o: \
+ ../Utils/Utils.h \
+ ../Vector/Vec2D.cpp \
+ ../Vector/Vec2D.h
 CMakeFiles/Hangman.dir/main.cpp.o: \
  ../Fractions/Fractions.h \
  ../MyString/MyString.h \
  ../Point2D/Point2D.h \
+ ../Vector/Vec2D.h \
  ../main.cpp

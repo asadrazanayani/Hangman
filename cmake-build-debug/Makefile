@@ -201,6 +201,54 @@ Point2D/Point2D.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hangman.dir/build.make CMakeFiles/Hangman.dir/Point2D/Point2D.cpp.s
 .PHONY : Point2D/Point2D.cpp.s
 
+Utils/Utils.o: Utils/Utils.cpp.o
+.PHONY : Utils/Utils.o
+
+# target to build an object file
+Utils/Utils.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hangman.dir/build.make CMakeFiles/Hangman.dir/Utils/Utils.cpp.o
+.PHONY : Utils/Utils.cpp.o
+
+Utils/Utils.i: Utils/Utils.cpp.i
+.PHONY : Utils/Utils.i
+
+# target to preprocess a source file
+Utils/Utils.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hangman.dir/build.make CMakeFiles/Hangman.dir/Utils/Utils.cpp.i
+.PHONY : Utils/Utils.cpp.i
+
+Utils/Utils.s: Utils/Utils.cpp.s
+.PHONY : Utils/Utils.s
+
+# target to generate assembly for a file
+Utils/Utils.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hangman.dir/build.make CMakeFiles/Hangman.dir/Utils/Utils.cpp.s
+.PHONY : Utils/Utils.cpp.s
+
+Vector/Vec2D.o: Vector/Vec2D.cpp.o
+.PHONY : Vector/Vec2D.o
+
+# target to build an object file
+Vector/Vec2D.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hangman.dir/build.make CMakeFiles/Hangman.dir/Vector/Vec2D.cpp.o
+.PHONY : Vector/Vec2D.cpp.o
+
+Vector/Vec2D.i: Vector/Vec2D.cpp.i
+.PHONY : Vector/Vec2D.i
+
+# target to preprocess a source file
+Vector/Vec2D.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hangman.dir/build.make CMakeFiles/Hangman.dir/Vector/Vec2D.cpp.i
+.PHONY : Vector/Vec2D.cpp.i
+
+Vector/Vec2D.s: Vector/Vec2D.cpp.s
+.PHONY : Vector/Vec2D.s
+
+# target to generate assembly for a file
+Vector/Vec2D.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Hangman.dir/build.make CMakeFiles/Hangman.dir/Vector/Vec2D.cpp.s
+.PHONY : Vector/Vec2D.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -243,6 +291,12 @@ help:
 	@echo "... Point2D/Point2D.o"
 	@echo "... Point2D/Point2D.i"
 	@echo "... Point2D/Point2D.s"
+	@echo "... Utils/Utils.o"
+	@echo "... Utils/Utils.i"
+	@echo "... Utils/Utils.s"
+	@echo "... Vector/Vec2D.o"
+	@echo "... Vector/Vec2D.i"
+	@echo "... Vector/Vec2D.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

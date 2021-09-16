@@ -9,7 +9,7 @@ private: //hidden to the interface users
     // data members determine the size of the object
     int x_;
     int y_;
-    bool nNewPrivateMember;
+    static int numPoints; // static in class context owned by the class and all the objects.
 public: //interface
     // methods are the how of the class
     //if we have defined any constructor, we do not have the compiler defined constructor
