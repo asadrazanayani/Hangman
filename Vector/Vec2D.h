@@ -13,6 +13,9 @@
  magnitude of the vector, using the pythagoras theorem
  normalizing the vector means making the magnitude touch the unit circle radius
  distance between the head of two points. So essentially we have to find a vector that goes between them
+ dot product is helpful to figure out the shadow cast by the rays of light projected by the light coming from above.
+ dot product also gives us the angle between two vectors
+ dot product has many application. from shader to the damage done by the projectile
  */
 
 class Vec2D {
@@ -38,10 +41,12 @@ public:
     Vec2D &operator+= (const Vec2D &obj);
     Vec2D &operator-= (const Vec2D &obj);
     float magnitude () const;
-    Vec2D GetUnitVec() const;
-    Vec2D &Normalize();
+    Vec2D getUnitVec() const;
+    Vec2D &normalize();
     float distance(const Vec2D &vec) const;
-
+    float dotProduct(const Vec2D &vec) const;
+    Vec2D projectOnto(const Vec2D &vec2) const;
+    float angleBetween(const Vec2D &vec2) const;
 
 private:
     float x_;

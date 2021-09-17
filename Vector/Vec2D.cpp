@@ -107,7 +107,7 @@ float Vec2D::magnitude() const
     return mag;
 }
 
-Vec2D Vec2D::GetUnitVec() const
+Vec2D Vec2D::getUnitVec() const
 {
     float mag = this->magnitude();
     if (mag > EPSILON)
@@ -118,7 +118,7 @@ Vec2D Vec2D::GetUnitVec() const
     return Vec2D::zero;
 }
 
-Vec2D &Vec2D::Normalize()
+Vec2D &Vec2D::normalize()
 {
     float mag = this->magnitude();
     if (mag > EPSILON)
@@ -131,3 +131,20 @@ float Vec2D::distance(const Vec2D &vec) const
 {
     return (vec - *this).magnitude();
 }
+float Vec2D::dotProduct(const Vec2D &vec) const
+{
+    float dot = this->x_*vec.x_ + this->y_ *vec.y_;
+    return dot;
+}
+
+Vec2D Vec2D::projectOnto(const Vec2D &vec2) const
+{
+    Vec2D unitVec2 = vec2.GetUnitVec();
+    float dot = dotProduct(unitVec2);
+    return unitVec2 * dot;
+}
+float Vec2D::angleBetween(const Vec2D &vec2) const
+{
+    return acosf(GetUnitVec().dotProduct(vec2.GetUnitVec()));
+}
+
